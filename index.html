@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  
+    <div class="container mx-auto">
+        <h2 class="text-3xl mb-8 font-bold text-center underline"> Project <span class="text-sky-600">1</span>.Discount And <span class="text-sky-600">2</span> .Textarea niye khela kora</h2>
+        <div class="grid grid-cols-2 gap-4">
+            <div>
+
+                <section class="min-h-100 p-12">
+                  <div class="container mx-auto f">
+                      <div>
+                          <h2 class="text-2xl mb-4">Total Price $<span id="total_balance">1200</span></h2>
+                      </div>
+                      <h3 class="text-xl mb-4 ">Your Promo Code is <span class="text-blue-600" id="promo_CODE">FORHAD9034</span></h3>
+                     
+                      <div class="w-12/12 mx-auto mt-12">
+                          <h4 class="text-xl text-center mb-4 font-medium ">Apply This Code is The input Field And Apply</h4>
+                          <input id="inputField" type="text" class="px-4 w-full py-2 border-2 border-slate-400 ">
+                          <button id="btn" class="bg-violet-600 text-white font-medium px-12 py-3">Apply</button>
+                      </div>
+              
+                      <div class="mt-12">
+                          <h3 class="text-xl mb-3">Discount : $<span id="discount">00</span></h3>
+                          <h3 class="text-xl mb-3">Total Payment Price  : $<span id="total_price">00</span></h3>
+                      </div>
+                  </div>
+                </section>
+            </div>
+            <div>
+                <section class="min-h-screen p-12 mt-12">
+                    <h2 class="text-xl text-center mb-4 font-medium " >Change Textarea Content in varius button</h2>
+                    <div class="container mx-auto shadow-lg">
+                      
+                       <textarea name="" id="text" class="px-4 w-full font-medium w-8/12 py-2 border-2 border-slate-400 " cols="30" rows="10">
+                
+                       </textarea>
+                     <div>
+                       <button id="size" class="bg-violet-600 text-white font-medium px-12 py-3">Text Size Increase</button>
+                       <button id="color" class="bg-violet-600 text-white font-medium px-12 py-3">Color </button>
+                     </div>
+                    </div>
+                 </section>
+            </div>
+        </div>
+    </div>
+ 
+
+  <script src="./index.js"></script>
+</body>
+</html>
